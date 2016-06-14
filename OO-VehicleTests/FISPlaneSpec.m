@@ -15,10 +15,10 @@
 SpecBegin(FISPlane)
 
 describe(@"FISPlane", ^{
-    __block FISPlane *plane;
+    __block FISplane *plane;
     
     beforeEach(^{
-        plane = [[FISPlane alloc] init];
+        plane = [[FISplane alloc] init];
     });
     
     it(@"is a subclass of FISVehicle", ^{
